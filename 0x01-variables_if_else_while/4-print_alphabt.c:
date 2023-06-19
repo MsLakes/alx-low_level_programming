@@ -1,0 +1,10 @@
+ilphabt.c:10:2: error: redeclaration of ‘e’ with no linkage
+   10 |  e = 'e';
+      |  ^
+4-print_alphabt.c:8:12: note: previous declaration of ‘e’ was here
+    8 |  char low, e, q,
+      |            ^
+4-print_alphabt.c:18:2: error: expected declaration or statement at end of input
+   18 |  return (0);
+      |  ^~~~~~
+
