@@ -9,7 +9,7 @@ int main(void)
 
 	for (k = '0'; k < '8'; k++)
 	{
-	for (n = k + 1; n <= '9'; n++)
+	for (n = k + 1; n <= '8'; n++)
 	{
 	for (l = n + 1; l <= '9'; l++)
 	{
