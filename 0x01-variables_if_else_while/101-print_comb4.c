@@ -13,7 +13,7 @@ int main(void)
 	{
 	for (l = n + 1; l < '9'; l++)
 	{
-	if (k <= n && n <= l)
+	if (k == '7' && n == '8' )
 	{
 	putchar(k);
 	putchar(n);
