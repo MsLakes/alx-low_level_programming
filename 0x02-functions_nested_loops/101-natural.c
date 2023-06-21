@@ -5,7 +5,8 @@
  */
 int main(void)
 {
-	int i, k = 0;
+	int i = 1;
+	int k = 0;
 	
 	while (i < 1024)
 	{
@@ -13,7 +14,7 @@ int main(void)
 	{
 	k += i;
 	}
-	i++
+	i++;
 	}
 	printf("%i\n", k);
 	return (0);
