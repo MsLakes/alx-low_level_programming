@@ -7,21 +7,22 @@ int main(void)
 {
 	int k, n, l;
 
-	for (k = '0'; k < '9'; k++)
+	for (k = 48; k < 58; k++)
 	{
-	for (n = k + 1; n <= '9'; n++)
+	for (n = 49; n < 58; n++)
 	{
-	for (l = n + 1; l <= '9'; l++)
+	for (l = 50; l < 58; l++)
 	{
-	if ((k != n) != l)
+	if (l > n && n > k)
 	{
 	putchar(k);
 	putchar(n);
 	putchar(l);
-	if (n == '7' && k == '8')
-	continue;
+	if (k != 55 || n != 56)
+	{
 	putchar(',');
 	putchar(' ');
+	}
 	}
 	}
 	}
