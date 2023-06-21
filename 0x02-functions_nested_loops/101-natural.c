@@ -1,0 +1,20 @@
+#include <stdio.h>
+/**
+ * main - Prints the sum of all multiples of 3 or 5 to 1024
+ * Return: Always (Success)
+ */
+int main(void)
+{
+	int i, k = 0
+	
+	while (i < 1024)
+	{
+	if ((i % 3 == 0) || (i % 5 == 0))
+	{
+	z += i;
+	}
+	i++
+	}
+	printf("%i\n", z);
+	return (0);
+}
