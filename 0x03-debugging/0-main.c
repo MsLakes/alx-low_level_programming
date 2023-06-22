@@ -5,8 +5,10 @@
  */
 int main(void)
 {
-	int i = 0;
+	int i;
 
-	positive_negative(i):
+	i = 0;
+	
+	positive_negative(i);
 	return (0);
 }
