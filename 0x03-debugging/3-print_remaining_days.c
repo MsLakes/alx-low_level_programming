@@ -10,7 +10,7 @@
  */
 
 
-void print_remaimning_days(int month, int day, int year)
+void print_remaining_days(int month, int day, int year)
 
 {
 	
