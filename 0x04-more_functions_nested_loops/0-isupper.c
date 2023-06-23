@@ -6,7 +6,7 @@
  * Return: 1 for uppercase or 0 for anything else
 */
 
-int _isupper(int x)
+int _isupper(int k)
 
 {
 
