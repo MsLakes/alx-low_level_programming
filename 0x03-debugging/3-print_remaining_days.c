@@ -9,8 +9,11 @@
  * Return: void
  */
 
+
 void print_remaimning_days(int month, int day, int year)
+
 {
+	
 	if ((year % 4 == 0) && (year % 400 == 0 || year % 100 != 0))
 	{
 	if (month >= 3 && day >= 60)
