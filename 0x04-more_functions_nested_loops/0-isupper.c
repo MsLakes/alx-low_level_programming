@@ -4,11 +4,12 @@
  *_isupper - Check for uppercase character
  * @k - The number to be checked
  * Return: 1 for uppercase or 0 for anything else
- */
+*/
 
-int _isupper(int k)
+int _isupper(int x)
 
 {
+
 	if (k >= 65 && k <= 90)
 	{
 	return (1);
