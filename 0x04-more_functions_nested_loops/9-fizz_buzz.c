@@ -30,7 +30,7 @@ int main(void)
 	{
 	printf("%i", k);
 	}
-	if (x != 100)
+	if (k != 100)
 	{
 	printf(" ");
 	}
