@@ -4,7 +4,7 @@
 /**
  * print_line - Draws a straight line according to parameter
  * @n: The number of lines to draw
- * Return: empty
+ * Return: 0
  */
 
 void print_line(int n)
@@ -19,7 +19,7 @@ void print_line(int n)
 	}
 	else
 	{
-	for (k = 0; x < n; k++)
+	for (k = 0; k < n; k++)
 	{
 	_putchar(95);
 	}
