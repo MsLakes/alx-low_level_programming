@@ -13,6 +13,6 @@ int mul(int k, int n)
 
 {
 
-	return (k * y);
+	return (k * n);
 
 }
