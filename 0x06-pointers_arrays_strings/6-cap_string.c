@@ -14,7 +14,7 @@ int _indexOf(char a)
                 if (capArr[i] == a)
                         return (1);
         }
-	return (0);
+        return (0);
 }
 /**
  * cap_string - capitalizes the string
