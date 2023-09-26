@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * delete_nodeint_at_index - Removes a node at a specified position in the list.
- * @head: A double pointer pointing to the list's start.
+ * delete_nodeint_at_index - Removes a node at a specific position in the list.
+ * @head: A double pointer pointing to the start of the list.
  * @index: Position of the node to be deleted.
  *
  * Return: 1 if successful, or -1 on failure.
