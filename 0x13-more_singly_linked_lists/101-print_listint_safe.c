@@ -6,8 +6,8 @@ size_t print_listint_safe(const listint_t *head);
 
 /**
  * looped_listint_len - Determines the number of distinct nodes
- * in a possibly looped listint_t linked list.
- * @head: A pointer to the starting node of the listint_t list.
+ * in a potentially looped listint_t linked list.
+ * @head: A pointer to the start of the listint_t list.
  *
  * Return: If the list isn't looped - 0.
  * Otherwise - the count of distinct nodes in the list.
@@ -53,7 +53,7 @@ size_t looped_listint_len(const listint_t *head)
 }
 
 /**
- * print_listint_safe - Prints a listint_t list without causing an infinite loop.
+ * print_listint_safe - Safely prints a listint_t list.
  * @head: A pointer to the start of the listint_t list.
  *
  * Return: The count of nodes in the list.
